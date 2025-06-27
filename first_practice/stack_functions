@@ -1,0 +1,10 @@
+sr=["rahul","sourav","ganguly","ram","raj"]
+sr.pop()
+print(sr)
+sr.append('sai')
+print(sr)
+sr.insert(2,'kumar')
+print(sr)
+sr.sort()
+print(sr)
+print(sr[0])
