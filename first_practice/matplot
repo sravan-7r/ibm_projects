@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+x=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+y=[2,3,4,5,4,5,2,8,5,9,4,5,14,13,6]
+plt.plot(x,y )
+plt.scatter(x,y, color='green')
+plt.title('stock market graph')
+plt.xlabel('height')
+plt.ylabel('width')
+plt.show()
